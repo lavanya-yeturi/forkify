@@ -1,0 +1,313 @@
+
+   body
+   {
+   width:1500px; 
+   padding:0px;
+   margin:auto;
+   box-sizing:border-box;   
+   background-image:linear-gradient(to left top,#f38e82, #fbdb89);
+ 
+   }
+   button:hover
+   {
+     opacity:0.5;
+     background-color:pink;
+     
+   } 
+   li:hover
+   {
+    opacity:0.9;
+    background-color:pink;
+    }  
+   h1
+    {
+        
+        color:#f38e82;
+        font-size:12px;          
+    }
+   h2
+   {             
+       margin-left:20px;
+       color:black;
+       font-size:10px;
+               
+    }  
+  .container
+  {
+     width:1000px;    
+     background-color:#eeeeeb;  
+     border-top-left-radius:0.8%;
+     border-top-right-radius:0.8%; 
+     margin:auto;
+     margin-top:3%;
+     margin-bottom:10%;
+   }
+  .header
+   {     
+       width:1000px;             
+       height:5%; 
+       padding-bottom:2%;    
+   }
+   .forkify
+   {           
+       margin-left:3%;
+       width:150px; 
+       margin-top:1.2%;
+       float:left;        
+   }
+   input
+   {
+       border-radius:40px;
+       border:none;        
+       width:250px;
+       padding:1.2%;
+       position:relative;
+       left:3%;        
+    }  
+    svg{
+       height:25px;
+       position:relative;
+       top:3px;
+       fill:#f38e82;
+      }    
+  .search_button
+   {
+       border-radius:20px;
+       margin-top:20px;
+       border:none; 
+       background-image:linear-gradient(to left top,#f38e82, #fbdb89);
+       width:120px;
+       padding:1.2%;
+       position:relative;      
+       text-transform: uppercase;
+   }
+  .options
+  {     
+       float:right;  
+       padding-right:1%;
+       list-style-type: none;
+  }
+  .recipe
+  { 
+       position:relative;
+       float:left;
+       text-transform:uppercase;       
+  }
+  .bookmark
+  {   
+        text-transform: uppercase;
+        position:relative;
+        padding:0px 30px;
+        float:right; 
+              
+  }
+ 
+  .subcontainer
+  {
+        display:flex;
+        width:100%;
+        background-color:white;
+  }
+  .sidebar
+   {           
+        padding-top:1%;
+        width:35%;         
+        background-color:white;
+        float:left;
+        border-radius:0.8%; 
+        text-transform: uppercase;
+       
+   }
+  .sidebar_image
+  {
+     height:40px;
+     width:40px;   
+     float:left;
+     position:relative ;   
+     top:12px;
+     right:2%;
+     border-radius:50%;
+     margin-left:5%;
+  }           
+       
+  .items{
+     width:97%;
+     }
+     
+  .sub_items h1,h2{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  margin-left:15%;
+  
+         }   
+  .rightContent
+   {
+        width:65%;
+        height:100%;
+        float:right;
+   }
+  .samosa
+  {
+       height:432.5px;     
+  }
+  .mainBar1{
+     background:linear-gradient(to bottom right, #ffffcc 0%, #ff6600 100%);
+     transform:skew(-10deg);
+     width:35%;
+     padding:13px;
+     margin-top:-60px;
+     margin-left:190px;  
+     }
+  .parallel{
+        transform:rotate(-5deg);
+        position:relative;
+        top:-10px;
+        color:white;
+        font-size:20px;
+        text-align:center;
+        }
+  .mainBar2{
+     background:linear-gradient(to bottom right, #ffffcc 0%, #ff6600 100%);
+     transform:skew(-10deg);
+     width:25%;
+     padding:8px;
+     margin-top:-8px;
+     margin-left:220px;
+     }
+  .minutes
+  {
+      width:65%;       
+      padding:10px;      
+  }    
+  ul 
+  {
+  list-style-type: none;
+  padding:0px;  
+ }  
+ 
+.bookImage{
+  width:30px;
+  float:right;
+  position:relative;
+  top:-2px;
+  left:40%;
+  }     
+li 
+ {
+  float: left;
+  padding-left:3%;
+ }   
+
+ .plus_image
+ {
+   height:20px;
+   position:relative;
+   top:10px;
+   }
+ 
+  .minus_image
+   {
+   height:20px;
+    position:relative;
+   top:10px;
+   }
+ 
+ .ingredient_container 
+  {
+     background-color:#ede8e1; 
+      width:650px; 
+      margin-top:7%;        
+  } 
+  .tick
+  {
+     width:20px;
+  } 
+  .ingredients_list
+ {
+  width:40%;
+  text-align:left;
+  font-size:15px;
+  float:left;
+  
+  }  
+ h3
+  {
+     margin-left:200px;
+     color:#f38e82;
+     font-size:17px;
+  }    
+ .ingredients
+  {
+     background-color:#ede8e1; 
+     position:relative;
+     left:7%;
+    
+        
+  }  
+ 
+ .footer
+ {  
+    padding-top:3%;
+    width:1000px;
+    background:white;
+   
+ } 
+ .left_footer{
+   float:left;
+   width:35%;
+   background:white;
+   
+   }
+ .page_number
+  {
+   padding:32px;          
+  }
+ .previous_page_btn
+  {
+       background-color:#ede8e1;
+       float:left;
+       color:#f38e82;
+       margin-left:25px;
+       border:none; 
+       border-radius:20px;
+       padding:4px;
+       width:100px;      
+ }
+ .next_page_btn
+  {
+      background-color:#ede8e1;
+      float:right;
+      color:#f38e82;
+      align-content:center;
+      border-radius:20px;
+      padding:4px;
+      width:100px;
+      border:none; 
+  }  
+  .copy_right
+ {
+      clear:both;
+      text-align:center;
+      font-size:14px;
+      padding-top:11px;
+ }
+ .right_footer{
+    float:right;
+    width:65%;
+    background:pink;
+    }
+ .instructions
+ {                                                           
+    text-align:center;
+ }          
+ .directions
+ {
+     border-radius:20px;
+     margin:10px;
+     background-color:#f38e82;
+     width:120px;       
+     border:none;
+  }       
+  
+   
