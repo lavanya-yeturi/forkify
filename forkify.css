@@ -44,6 +44,7 @@
    }
   .header
    {     
+       background:#F5F5F5;
        width:1000px;             
        height:5%; 
        padding-bottom:2%;    
@@ -74,7 +75,8 @@
    {
        border-radius:20px;
        margin-top:20px;
-       border:none; 
+       border:none;
+       color:white; 
        background-image:linear-gradient(to left top,#f38e82, #fbdb89);
        width:120px;
        padding:1.2%;
@@ -132,6 +134,7 @@
        
   .items{
      width:97%;
+     padding:3% 1%;
      }
      
   .sub_items h1,h2{
@@ -146,6 +149,7 @@
         width:65%;
         height:100%;
         float:right;
+         background:#F5F5F5;
    }
   .samosa
   {
@@ -178,12 +182,15 @@
   .minutes
   {
       width:65%;       
-      padding:10px;      
+      padding:10px;
+      display:inline-block;
+        
   }    
   ul 
   {
   list-style-type: none;
-  padding:0px;  
+  padding:0px;
+    
  }  
  
 .bookImage{
@@ -210,14 +217,16 @@ li
    {
    height:20px;
     position:relative;
-   top:10px;
+   top:8px;
    }
  
  .ingredient_container 
   {
-     background-color:#ede8e1; 
+     background-color:white;
+      display:inline-block; 
       width:650px; 
-      margin-top:7%;        
+      padding:2% 0%; 
+      margin-top:2%; 
   } 
   .tick
   {
@@ -239,7 +248,7 @@ li
   }    
  .ingredients
   {
-     background-color:#ede8e1; 
+     background-color:white; 
      position:relative;
      left:7%;
     
@@ -257,6 +266,7 @@ li
    float:left;
    width:35%;
    background:white;
+   padding:2.15% 0%;
    
    }
  .page_number
@@ -289,13 +299,14 @@ li
  {
       clear:both;
       text-align:center;
-      font-size:14px;
-      padding-top:11px;
+      font-size:12px;
+      padding:11px;
  }
  .right_footer{
     float:right;
     width:65%;
-    background:pink;
+    background:#F5F5F5;
+    padding:1% 0%;
     }
  .instructions
  {                                                           
@@ -306,8 +317,13 @@ li
      border-radius:20px;
      margin:10px;
      background-color:#f38e82;
+     color:white;
      width:120px;       
      border:none;
+     padding:2% 0%;
   }       
   
+  .instructions h1{
+      font-size:16px;
+      }
    
